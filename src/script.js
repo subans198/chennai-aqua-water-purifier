@@ -1,9 +1,9 @@
 const slider = document.getElementById("slider");
 
 const images = [
-  "images/1.jpg",
-  "images/2.jpg",
-  "images/3.jpg"
+  { src: "images/1.jpg", price: "₹ 7,000" },
+  { src: "images/2.jpg", price: "₹ 8,000" },
+  { src: "images/3.jpg", price: "₹ 9,500" }
 ];
 
 images.forEach(src => {
