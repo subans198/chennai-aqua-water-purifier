@@ -87,3 +87,24 @@ body {
   font-size: 0.9rem;
   color: #666;
 }
+
+.slide {
+  width: 100%;
+  flex-shrink: 0;
+  text-align: center;
+}
+
+.slide img {
+  width: 100%;
+  max-height: 280px;
+  object-fit: cover;
+  border-radius: 12px;
+}
+
+.price {
+  margin-top: 8px;
+  font-weight: bold;
+  font-size: 1.1rem;
+  color: #0a6cf1;
+}
+
